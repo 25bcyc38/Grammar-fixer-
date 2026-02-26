@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Grammar Fixer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Grammar Fixer</h1>
+        <p>Type your text below and I'll find the mistakes!</p>
+        
+        <textarea id="userInput" placeholder="Paste your messy text here..."></textarea>
+        
+        <button onclick="fixGrammar()" id="fixBtn">Fix Grammar</button>
+
+        <div id="resultArea" class="hidden">
+            <h3>Suggestions:</h3>
+            <div id="suggestions"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
